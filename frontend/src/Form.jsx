@@ -20,7 +20,7 @@ export default function Form() {
         console.log(" Login success:", data);
         alert("Login successful!");
       } else {
-        console.error(message);
+        console.error(error);
         alert("Login failed.");
       }
     } catch (error) {
